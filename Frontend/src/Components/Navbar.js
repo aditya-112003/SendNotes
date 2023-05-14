@@ -37,7 +37,7 @@ const Navbar = () => {
                             <span className="mx-2">
                                 <Link hidden={localStorage.getItem('token')} className="btn btn-outline-success" to="signup">Sign-Up</Link>
                             </span>
-                            <button hidden={!localStorage.getItem('token')} type="submit" className="btn btn-primary" onClick={handleLogOut}>Log-Out</button>
+                            <button hidden={!localStorage.getItem('token')} type="submit" className="btn btn-primary" onClick={handleLogOut}><i class="fa-solid fa-arrow-right-from-bracket"></i> Log-Out</button>
                         </form>
                     </div>
                 </div>

@@ -65,7 +65,7 @@ const Notes = () => {
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button disabled={note.title.length<5 || note.description.length<5 } type="button" className="btn btn-primary" onClick={handleClick} data-bs-dismiss="modal">Update Note</button>
+                            <button disabled={note.title.length<5 || note.description.length<5 } type="button" className="btn btn-primary" onClick={handleClick} data-bs-dismiss="modal"><i class="fa-solid fa-pen-to-square"></i> Update Note</button>
                         </div>
                     </div>
                 </div>
